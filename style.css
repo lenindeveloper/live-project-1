@@ -1,0 +1,144 @@
+body{
+    background-color: white;
+    font-family: 'orbitron', sans-serif;
+}
+
+.navbar-container{
+    display: flex;
+    justify-content: space-between;
+    margin: 30px 30px;
+
+}
+
+.list{
+    display: flex;
+    list-style-type: none;
+    margin-left: 60px;
+cursor: pointer;
+
+}
+li:hover {
+    font-weight: 700;
+    text-decoration: underline;
+    color: black;
+    text-decoration-thickness: 2px;
+  }
+  
+.list-item{
+    margin-right: 50px;
+}
+.button-group{
+    display: flex;
+    margin-top: 10px;
+}
+.search-icon{
+   margin-right: 20px;
+}
+
+.nav-button{
+padding: 5px 40px;
+border: 2px solid black;
+border-radius: 8px;
+background-color: white;
+}
+
+/* Hero banner */
+
+.hero-container{
+    
+    position: relative;
+    display: flex;
+    margin-top: 80px;
+    padding-bottom: 50px;
+    margin: 0px 30px;
+    justify-content: space-between;
+}
+
+.person{
+    margin-top: 50px;
+    z-index: 2;
+    
+}
+
+.square{
+    position: absolute;
+    z-index: 1;
+    top: 380px;
+    left: 200px;
+}
+
+.globe{
+    margin-right: 300px;
+    
+}
+
+.star{
+    margin-top: 60px;
+    float: right;
+}
+.hero-container-right{
+    position: absolute;
+    text-align: center;
+    top: 150px;
+    left: 600px;
+    
+}
+
+.hero-heading{
+    
+    font-size: 30px;
+  
+}
+.hero-heading {
+    display: inline-block;
+    margin: 2px;
+    -webkit-transform: scale(2, 1);
+    -moz-transform: scale(2, 1);
+    -o-transform: scale(2, 1);
+    transform: scale(1.8, 1);
+  }
+
+.hero-description{
+margin-left: 70px;
+margin-bottom: 200px;
+margin-right: 70px;
+padding-top: 50px;
+}
+
+.star-bot{
+    position: absolute;
+    top: 500px;
+    left: 60px;
+
+}
+
+.button-email{
+    font-size: 15px;
+    border: 1px solid black;
+    border-radius: 8px;
+    padding: 4px 20px;
+    background-color: white;
+    font-stretch: expanded;
+
+}
+
+.button-join{
+    font-size: 15px;
+    background-color: black;
+    color: white;
+    text-transform: uppercase;
+    border-radius: 8px;
+    font-family: "poppins";
+    padding: 2px 10px;
+
+}
+
+
+.contact-heading{
+    margin-top: 100px;
+    font-weight: normal;
+}
+.icons img{
+    margin-left: 20px;
+}
+
